@@ -1,0 +1,167 @@
+/* /Users/luiscarlosparraraffan/Desktop/NEU API/frontend/src/App.css */
+body {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300; /* Light weight */
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #FFE5E5 0%, #FF3366 100%);
+  color: #000;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 300; /* Light weight */
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  font-weight: 300; /* Light weight */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000;
+  font-size: 1rem;
+  backdrop-filter: blur(5px);
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300; /* Light weight */
+}
+
+.file-input {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.file-input::-webkit-file-upload-button {
+  visibility: hidden;
+  width: 0;
+}
+
+.file-input::before {
+  content: 'Seleccionar archivo';
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 300; /* Light weight */
+  margin-right: 10px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.input-field::placeholder {
+  color: #000;
+  opacity: 0.7;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300; /* Light weight */
+}
+
+.input-field[type="date"] {
+  color: #000;
+  opacity: 0.7;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300; /* Light weight */
+}
+
+.submit-button:hover {
+  background-color: #333;
+}
+
+.submit-button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.response-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.response-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  font-weight: 300; /* Light weight */
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 300; /* Light weight */
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #d32f2f;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
